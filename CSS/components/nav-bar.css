@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  background-color: #f9f9fa;
+  width: 100%;
+  padding: 20px;
+
+  border-top: 1px solid rgba(112, 112, 112, 0.336);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__a {
+  position: relative;
+}
+
+.nav__chat-noti {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: -15px;
+}
+
+.nav__noti {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: -15px;
+}
