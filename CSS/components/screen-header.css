@@ -18,3 +18,18 @@
 .screen-header__icon span {
   margin-left: 25px;
 }
+
+.screen-header__setting-cog {
+  position: relative;
+}
+
+.screen-header__setting-noti {
+  display: block;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}

@@ -8,8 +8,10 @@
   justify-content: space-between;
 }
 
-.user-component__not-friends {
-  margin-top: 100px;
+.user-component__chat {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: var(--main-border);
 }
 
 .user-component__avatar {
