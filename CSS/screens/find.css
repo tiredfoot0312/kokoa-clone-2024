@@ -111,3 +111,23 @@
 .open-chat-post__heart-count span {
   margin-left: 4px;
 }
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-chat-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeat 1s linear infinite;
+}
