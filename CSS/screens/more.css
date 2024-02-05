@@ -2,63 +2,32 @@
   color: lightcoral;
 }
 
-.more-icons {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-
-.more-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 50px;
-}
-
-.more-icons__icon span {
-  margin-top: 15px;
-  font-weight: 600;
-  color: var(--gray);
-}
-
-.more-icons__icon__talk-drive {
-  position: relative;
-}
-
-.more-icons__icon__noti {
-  display: block;
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  position: absolute;
-  right: 40px;
-  top: -20px;
-}
-
-.suggestions {
+.more-suggestions {
   border-top: var(--main-border);
   color: rgba(0, 0, 0, 0.8);
   padding: 20px 0px;
 }
 
-.suggestions__title {
+.more-suggestions__title {
   font-weight: 600;
 }
 
-.suggestions__icons {
-  padding-top: 20px;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+.more-suggestions__icons {
+  display: flex;
+  margin-top: 30px;
 }
 
-.suggestions__icons__icon {
+.more-suggestions__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 30px;
 }
 
-.suggestions__icons__icon span {
-  padding-top: 10px;
-  font-weight: 600;
-  color: var(--gray);
+.more-suggestions__icon-image {
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+  font-size: 50px;
 }
